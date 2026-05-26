@@ -1,6 +1,5 @@
-# Automated Financial Reporting & Operations Simulation Engine (Project 1)
-
-Repository ini berisi simulasi lingkungan operasional bank Tajirbgt yang dibangun di atas AWS. 
+# Automated Financial Reporting & Operations Simulation
+Repository ini berisi simulasi lingkungan operasional bank tajirbgt yang dibangun di atas AWS. 
 Proyek ini dirancang untuk mendemonstrasikan keahlian dalam mengelola infrastruktur cloud, 
 database perbankan, otomasi data pipeline, serta penanganan insiden operasional sebagai L1/L2 Application Support Engineer.
 
@@ -8,13 +7,13 @@ database perbankan, otomasi data pipeline, serta penanganan insiden operasional 
 
 Infrastruktur dasar dideploy secara manual melalui AWS Management Console dengan spesifikasi berikut:
 * **Compute:** 1x AWS EC2 Instance (`t3.micro`) running Ubuntu Server 22.04 LTS.
-* **Storage:** 1x AWS EBS Volume (gp3) untuk os & database lokal, serta 1x AWS S3 Bucket (`laporan-bank-deni-2026`) sebagai cold storage laporan harian.
+* **Storage:** 1x AWS EBS Volume (gp3) untuk os & database lokal, serta 1x AWS S3 Bucket (`laporan-bank-tajirbgt-2026`) sebagai cold storage laporan harian.
 * **Network & Security:** 1x Custom VPC dengan 1x Public Subnet, Internet Gateway, dan Security Group yang membuka Port 22 (SSH) dan Port 80 (HTTP).
 * **IAM & Security Access:** 1x IAM Role (`EC2-To-S3-Upload-Role`) dengan policy `AmazonS3FullAccess` ditempelkan langsung ke EC2 untuk akses programmatic tanpa hardcoded credential.
 
 Berikut adalah diagram alur operasional otomatisasi dan arsitektur sistem yang di-deploy di AWS:
 
-![AWS Ops Simulation Architecture](aws-ops-simulation-architecture.png)
+![AWS Ops Simulation Architecture]([aws-ops-simulation-architecture.png](https://drive.google.com/file/d/10jruzk65Jjn3tsFGm7deZVHraJGoWh4j/view?usp=drive_link))
 
 ## 💾 Database State (PostgreSQL)
 
