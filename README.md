@@ -1,6 +1,6 @@
 # Automated Financial Reporting & Operations Simulation Engine (Project 1)
 
-Repository ini berisi simulasi lingkungan operasional perbankan (mock bank) yang dibangun di atas AWS. 
+Repository ini berisi simulasi lingkungan operasional bank Tajirbgt yang dibangun di atas AWS. 
 Proyek ini dirancang untuk mendemonstrasikan keahlian dalam mengelola infrastruktur cloud, 
 database perbankan, otomasi data pipeline, serta penanganan insiden operasional sebagai L1/L2 Application Support Engineer.
 
