@@ -13,7 +13,7 @@ Infrastruktur dasar dideploy secara manual melalui AWS Management Console dengan
 
 Berikut adalah diagram alur operasional otomatisasi dan arsitektur sistem yang di-deploy di AWS:
 
-![aws-ops-simulation-architecture](https://drive.google.com/file/d/10jruzk65Jjn3tsFGm7deZVHraJGoWh4j/view?usp=drive_link)
+![aws-ops-simulation-architecture](Simple_OPS_simulation.png)
 
 ## 💾 Database State (PostgreSQL)
 
